@@ -43,7 +43,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
         <put-attribute name="title" value="User Detail"/>
         <put-attribute name="content" value="/WEB-INF/pages/user-detail.jsp"/>
     </definition>
-    
-
+    <definition name="cates-stats" extends="baseLayout">
+        <put-attribute name="title" value="Category Stats"/>
+        <put-attribute name="content" value="/WEB-INF/pages/cates-stats.jsp"/>
+    </definition>
+    <definition name="revenue-stats" extends="baseLayout">
+        <put-attribute name="title" value="Category Stats"/>
+        <put-attribute name="content" value="/WEB-INF/pages/revenue-stats.jsp"/>
+    </definition>
 </tiles-definitions>
 
